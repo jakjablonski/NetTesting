@@ -1,0 +1,5 @@
+C:\Users\jablo\documents\visual studio 2015\Projects\ASP_MVC_Testing\CodedUITestProject3\bin\Debug\CodedUITestProject3.dll
+C:\Users\jablo\documents\visual studio 2015\Projects\ASP_MVC_Testing\CodedUITestProject3\bin\Debug\CodedUITestProject3.pdb
+C:\Users\jablo\documents\visual studio 2015\Projects\ASP_MVC_Testing\CodedUITestProject3\obj\Debug\CodedUITestProject3.dll
+C:\Users\jablo\documents\visual studio 2015\Projects\ASP_MVC_Testing\CodedUITestProject3\obj\Debug\CodedUITestProject3.pdb
+C:\Users\jablo\documents\visual studio 2015\Projects\ASP_MVC_Testing\CodedUITestProject3\obj\Debug\CodedUITestProject3.csprojResolveAssemblyReference.cache

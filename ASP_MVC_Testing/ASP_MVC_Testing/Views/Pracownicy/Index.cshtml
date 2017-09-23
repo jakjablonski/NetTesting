@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ASP_MVC_Testing.Models.Pracownik>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Stanowisko.Nazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Imie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nazwisko)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pesel)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stanowisko.Nazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Imie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nazwisko)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pesel)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PracownikId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PracownikId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PracownikId })
+        </td>
+    </tr>
+}
+
+</table>
